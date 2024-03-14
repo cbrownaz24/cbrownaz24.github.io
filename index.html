@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="granim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <canvas id="canvas-image-blending"></canvas>
+
+    <div class="main-content" style="text-align: center; width: 100%; position: absolute">
+      <center>
+
+        <div class="" style="height: 750px;">
+          <h1 style="padding-top: 230px; color: white;">Hi, my name is Connor.</h1>
+          <p style="padding-top: 25px; color: white;" id="app"></p>
+        </div>
+
+        <h2 style="padding-bottom: 10px; padding-top: 10px;">Introduction</h2>
+
+        <!-- Introduction -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 20px;">
+          <div class="big-container-left" style="">
+            <p class="time-text">Fun fact: Despite being 6'5", I have two weiner dogs who are < 1' off the ground! </p>
+            <p style="padding-bottom: 5px;">Hi, my name is Connor. I'm a sophomore at Princeton University studying Electrical and Computer Engineering, with intended minors in Applied Math, Computer Science, and Quantitative Economics.<br><br>I'm deeply curious about a wide range of topics, including machine learning, computer vision, computational biology, quantitative finance, political science, and economics.<br><br>I'm originally from Phoenix, AZ and am an avid chess player, golfer, and basketball player. I also love 90s/00s rock, 90s rap, animals memes (especially dogs), and authentic Mexican cuisine.</p>
+          </div>
+          <div class="small-container-right">
+            <img src="assets/stockphoto.jpg" class="title-image">
+          </div>
+        </div>
+
+        <h2 style="padding-bottom: 20px">My Current Projects</h2>
+
+        <!-- Current Project #1 -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Auctioning Platform for Eating Club Passes</h3>
+            <p class="time-text">March 2024 - TBD</p> <!--Add your own dates-->
+            <p>Princeton's social scene revolves around its eating clubs: 11 co-ed clubs which house meals, social events, and nights out for upperclassmen members. Upperclassmen are given passes that they can freely distribute to non-members of their club for access to nights out. This project aims to financially incentivize the distribution of passes beyond established friend groups by allowing upperclassmen to auction off passes to Princeton students on an open platform. To mitigate income discrimination and platform dependency, I intend to enforce an auction price cap and active bids cap, respectively.</p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn1">See more</button>
+          </div>
+          <div class="small-container-right">
+            <img src="assets/tigerinn.jpg" class="title-image">
+          </div>
+        </div>
+
+        <!-- Current Project #2 -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Mean Reversion/Pair Trade of NVDA Stock</h3>
+            <p class="time-text">March 2024 - TBD</p> <!--Add your own dates-->
+            <p>Considering the upward trend of tech stock and the short-term volatility of NVDA in particular, I, as part of Paragon Global Investments, am experimenting with a mean reversion trading strategy for NVDA. I'm doubling down on this strategy by looking at potential pair trades with complementary tech stocks.</p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn2">See more</button>
+          </div>
+          <div class="small-container-right">
+            <img src="assets/nvda.jpeg" class="title-image">
+          </div>
+        </div>
+
+        <!-- Current Project #3 -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Senior Thesis Scraper for VC Sourcing</h3>
+            <p class="time-text">January 2024 - TBD</p> <!--Add your own dates-->
+            <p>As a Campus Analyst Lead at Impact First Ventures, I'm always searching for innovative ways to expand Princeton's entrepreneurial ecosystem. This project aims to improve inbound deal flow and incentivize entrepreurship at Princeton by exploiting its academic-driven culture. It's a platform for scraping entrepreneurially-oriented, impact-focused senior theses for potential early seed funding. Therefore, I'm betting on the senior thesis being the quintessential academic experience at Princeton. </p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn3">See more</button>
+          </div>
+          <div class="small-container-right">
+            <img src="assets/thesis.jpg" class="title-image">
+          </div>
+        </div>
+
+        <!-- Completed projects -->
+        <h2 style="padding-bottom: 20px">My Completed Projects (recent to old)</h2>
+
+        <!-- Completed Project #1 -->
+        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left" style="">
+            <img src="assets/pgiconsumerretail.jpg" alt="" class="title-image">
+          </div>
+          <div class="big-container-right" style="">
+            <h3>Consumer Retail Data Analysis</h3>
+            <p class="time-text">March 2024</p>
+            <p style="padding-bottom: 10px;">This was an intentionally randomized dataset used to test my ability to analyze data as part of Paragon Global Investment's quantitative analyst interview process.</p>
+            <button type="button" class="btn btn-outline-success" id="btn4">Visit</button>
+          </div>
+        </div>
+
+        <!-- Completed Project #2 -->
+        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left" style="">
+            <img src="assets/spaceshiptitanic.jpg" alt="" class="title-image">
+          </div>
+          <div class="big-container-right" style="">
+            <h3>Spaceship Titanic Data Analysis</h3>
+            <p class="time-text">January 2024</p>
+            <p style="padding-bottom: 10px;">One of my first projects with Kaggle was the Spaceship Titanic competition. For this competition, we are tasked with using the provided dataset to create an ML model for predicting whether a given passenger will survive or not.</p>
+            <button type="button" class="btn btn-outline-success" id="btn5">Visit</button>
+          </div>
+        </div>
+
+        <!-- Completed Project #3 -->
+        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left" style="">
+            <img src="assets/timelyhealth.jpg" alt="" class="title-image">
+          </div>
+          <div class="big-container-right" style="">
+            <h3>Timely Health</h3>
+            <p class="time-text">July 2022</p>
+            <p style="padding-bottom: 10px;">As a Google CSSI Scholar, I submitted Timely Health as my final project. Timely Health makes healthy, affordable recipes more accessible for college students.</p>
+            <button type="button" class="btn btn-outline-success" id="btn6">Visit</button>
+          </div>
+        </div>
+
+        <!-- Completed Project #4 -->
+        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left" style="">
+            <img src="assets/visiongate.jpg" alt="" class="title-image">
+          </div>
+          <div class="big-container-right" style="">
+            <h3>The Non-Intrusive LuCED® Test for Detection of Early-Stage Lung Cancer: A Subgroup Analysis for Chronic Obstructive Pulmonary Disease (COPD)</h3>
+            <p class="time-text">October 2021</p>
+            <p style="padding-bottom: 10px;">As a Software Engineering Intern at VisionGate3D Technologies, I contributed to the statistical analysis and development of a machine learning classifier capable of detecting rare cell cancers. This ultimately contributed to a research paper which was published in <i>The Journal of Thoracic Oncology</i>.</p>
+            <button type="button" class="btn btn-outline-success" id="btn7">Visit</button>
+          </div>
+        </div>
+
+        <!-- Hobbies -->
+        <h2 style="padding-bottom: 20px">My other hobbies</h2>
+
+        <div class="row">
+          <!-- FIRST HOBBY CARD -->
+          <div class="col-sm-4" style="padding-bottom: 20px">
+            <div class="card">
+              <img src="assets/globalaffairs.jpg" class="card-img-top" alt="..." style="height: 500px">
+              <div class="card-body">
+                <p class="card-text">Global Affairs</p>
+                <button type="button" class="btn btn-outline-success" id="hobbyBtn1">See more</button>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd HOBBY CARD -->
+          <div class="col-sm-4" style="padding-bottom: 20px">
+            <div class="card">
+              <div class="card">
+                <img src="assets/chess.jpg" class="card-img-top" alt="..." style="height: 500px">
+                <div class="card-body">
+                  <p class="card-text">Chess</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd HOBBY CARD -->
+          <div class="col-sm-4" style="padding-bottom: 20px">
+            <div class="card">
+              <div class="card">
+                <img src="assets/basketball.jpg" class="card-img-top" alt="..." style="height: 500px">
+                <div class="card-body">
+                  <p class="card-text">Basketball</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4th HOBBY CARD -->
+          <div class="col-sm-4" style="padding-bottom: 20px">
+            <div class="card">
+              <div class="card">
+                <img src="assets/golf.jpg" class="card-img-top" alt="..." style="height: 500px">
+                <div class="card-body">
+                  <p class="card-text">Golf</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- Contact me / ending section -->
+        <h2 style="padding-bottom: 20px; padding-top: 80px;">Contact Me</h2>
+
+        <a href="mailto:connorbrown@princeton.edu" class="fa fa-paper-plane" style="margin-right: 10px"></a>
+        <a href="https://www.linkedin.com/in/connortbrown/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin" style="margin-right: 10px"></a>
+        <a href="https://www.github.com/cbrownaz24" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
+
+        <!--MODALS-->
+
+        <!-- Modal for Button #1 - change inside information such as images and text to make it your own-->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="closeModal1">&times;</span>
+            <h2>Auctioning Platform for Eating Club Passes</h2>
+            <br>
+            <div id="carouselIndicators1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/auction1.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/auction2.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p>Reimagining access to eating club passes at Princeton.</p>
+            <p>Skills:</p>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>MySQL</li>
+              <li>WordPress</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Modal for Button #2 - change inside information such as images and text to make it your own-->
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <span class="closeModal2">&times;</span>
+            <h2>Mean Reversion/Pair Trade of NVDA Stock</h2>
+            <br>
+            <div id="carouselIndicators2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/pgi.jpg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/nvidia.jpg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p>A low/medium frequency algorithmic trading strategy for NVDA stock.</p>
+            <p>Skills:</p>
+            <ul>
+              <li>Python</li>
+              <li>Backtesting</li>
+            </ul>
+          </div>
+        </div>
+
+       <!-- Modal for Button #3 - change inside information such as images and text to make it your own-->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <span class="closeModal3">&times;</span>
+            <h2>Senior Thesis Scraper for VC Sourcing</h2>
+            <br>
+            <div id="carouselIndicators3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/impactfirst.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/ptonentre.jpg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p>Expanding Princeton beyond academics toward entrepreurship.</p>
+            <p>Skills:</p>
+            <ul>
+              <li>Natural Language Processing (NLP)</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>Google Cloud Storage</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MODALS FOR HOBBIES -->
+
+        <!-- Modal for Hobby Button #1 - change inside information such as images and text to make it your own-->
+        <div id="modalHobby1" class="modal">
+          <div class="modal-content">
+            <span class="closeModalHobby1">&times;</span>
+            <h2>Global Affairs</h2>
+            <br>
+            <div id="carouselIndicatorsHobby1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicatorsHobby1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicatorsHobby1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://docs.google.com/document/d/11FJGvWVhtRaOJT2rxejH85HGU3h8JaAmtAANH7q3zqw/edit?usp=sharing"><img src="assets/china.jpg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://docs.google.com/document/d/1NB6_6dmsq_LRFOb7aisXc7q601MghXSjqMyGbGtsEGo/edit?usp=sharing"><img src="assets/europe.jpg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="..."></a>
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicatorsHobby1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicatorsHobby1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p>I made a conscious effort to explore new fields/topics with my electives, and I'm so glad that I did. Global affairs and international relations was first introduced to me through a China's Foreign Affairs class during my sophomore fall. Now, I'm so fascinated by the subject that I'm taking a Legal Europe class!<br><br>Please click either of the above pictures to see some cool global affairs pieces I've written!</p>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
