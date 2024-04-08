@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('I am an aspiring machine learning developer and a student at Princeton University.')
+  .typeString('I like signals, math, people, and puzzles.')
   .pauseFor(3000)
   .start()
 
@@ -33,30 +33,10 @@ var granimInstance = new Granim({
     }
 });
 
-//BUTTON 1
-var modal1 = document.getElementById("modal1");
-
-// Get the button that opens the modal
+// BUTTON 1 - goes to external link
 var btnModal1 = document.getElementById("btn1");
-
-// Get the <span> element that closes the modal
-var spanModal1 = document.getElementsByClassName("closeModal1")[0];
-
-// When the user clicks on the button, open the modal
 btnModal1.onclick = function() {
-  modal1.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-spanModal1.onclick = function() {
-  modal1.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal1) {
-    modal1.style.display = "none";
-  }
+  window.open("https://github.com/cbrownaz24/RedditPennyStockProject", "_blank")
 }
 
 //BUTTON 2
@@ -112,27 +92,33 @@ window.onclick = function(event) {
 }
 
 //BUTTON 4 -- links to outside website
-var btn6 = document.getElementById("btn4");
-btn6.onclick = function() { 
-  window.open("https://github.com/cbrownaz24/PGI-consumer-retail-EDA/blob/main/PNG-SystemicFundQuestion.ipynb", "_blank") //TODO add your link
+var btn4 = document.getElementById("btn4");
+btn4.onclick = function() { 
+  window.open("https://github.com/cbrownaz24/PGI-consumer-retail-EDA/blob/main/PNG-SystemicFundQuestion.ipynb", "_blank") 
 }
 
 //BUTTON 5 -- links to outside website
-var btn6 = document.getElementById("btn5");
-btn6.onclick = function() { 
-  window.open("https://github.com/cbrownaz24/SpaceshipTitanic/blob/main/spaceship-titanic.ipynb", "_blank") //TODO add your link
+var btn5 = document.getElementById("btn5");
+btn5.onclick = function() { 
+  window.open("https://github.com/cbrownaz24/SpaceshipTitanic/blob/main/spaceship-titanic.ipynb", "_blank") 
 }
 
 //BUTTON 6 -- links to outside website
 var btn6 = document.getElementById("btn6");
 btn6.onclick = function() { 
-  window.open("https://timelyhealthgooglecssi2022.connorbrown37.repl.co/", "_blank") //TODO add your link
+  window.open("https://timelyhealthgooglecssi2022.connorbrown37.repl.co/", "_blank") 
 }
 
 //BUTTON 7 -- links to outside website
-var btn6 = document.getElementById("btn7");
-btn6.onclick = function() { 
-  window.open("https://www.jto.org/article/S1556-0864(21)03076-8/fulltext", "_blank") //TODO add your link
+var btn7 = document.getElementById("btn7");
+btn7.onclick = function() { 
+  window.open("https://www.jto.org/article/S1556-0864(21)03076-8/fulltext", "_blank") 
+}
+
+//BUTTON 8 -- links to outside website
+var btn8 = document.getElementById("btn8");
+btn8.onclick = function() { 
+  window.open("https://github.com/liamos7/CitadelDatathon2023-Team4", "_blank") 
 }
 
 //HOBBY MODALS
@@ -162,4 +148,3 @@ window.onclick = function(event) {
     modalHobby1.style.display = "none";
   }
 }
-
