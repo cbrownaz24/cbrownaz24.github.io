@@ -33,12 +33,6 @@ var granimInstance = new Granim({
     }
 });
 
-// BUTTON 1 - goes to external link
-var btnModal1 = document.getElementById("btn1");
-btnModal1.onclick = function() {
-  window.open("https://github.com/cbrownaz24/RedditPennyStockProject", "_blank")
-}
-
 //BUTTON 2
 var modal2 = document.getElementById("modal2");
 
@@ -89,36 +83,6 @@ window.onclick = function(event) {
   if (event.target == modal3) {
     modal3.style.display = "none";
   }
-}
-
-//BUTTON 4 -- links to outside website
-var btn4 = document.getElementById("btn4");
-btn4.onclick = function() { 
-  window.open("https://github.com/cbrownaz24/PGI-consumer-retail-EDA/blob/main/PNG-SystemicFundQuestion.ipynb", "_blank") 
-}
-
-//BUTTON 5 -- links to outside website
-var btn5 = document.getElementById("btn5");
-btn5.onclick = function() { 
-  window.open("https://github.com/cbrownaz24/SpaceshipTitanic/blob/main/spaceship-titanic.ipynb", "_blank") 
-}
-
-//BUTTON 6 -- links to outside website
-var btn6 = document.getElementById("btn6");
-btn6.onclick = function() { 
-  window.open("https://timelyhealthgooglecssi2022.connorbrown37.repl.co/", "_blank") 
-}
-
-//BUTTON 7 -- links to outside website
-var btn7 = document.getElementById("btn7");
-btn7.onclick = function() { 
-  window.open("https://www.jto.org/article/S1556-0864(21)03076-8/fulltext", "_blank") 
-}
-
-//BUTTON 8 -- links to outside website
-var btn8 = document.getElementById("btn8");
-btn8.onclick = function() { 
-  window.open("https://github.com/liamos7/CitadelDatathon2023-Team4", "_blank") 
 }
 
 //HOBBY MODALS
